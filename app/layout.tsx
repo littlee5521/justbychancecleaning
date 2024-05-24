@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { quicksand } from "./UI/fonts";
-import NavBar from "./UI/navbar";
+import SuspenseNavbar from "./UI/suspenseNavBar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
-        <NavBar />
+      <body className={`${quicksand.className}`}>
+        <SuspenseNavbar></SuspenseNavbar>
         {children}
       </body>
     </html>

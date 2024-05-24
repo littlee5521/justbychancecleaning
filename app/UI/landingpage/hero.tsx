@@ -14,10 +14,10 @@ export default function Hero() {
           </h2>
           <p className={`font-bold tex text-chance-dark-blue text-2xl`}>
             Welcome to Just By Chance Cleaning! We bring professional cleaning
-            magic to the Central Valley. Whether it's a cozy home or a bustling
+            magic to the Central Valley. Whether it`s a cozy home or a bustling
             office, our expert team transforms mess into sparkling perfection.
             Let us handle the dirty work while you enjoy the spotless
-            results—because with us, cleanliness isn't just by chance, it's
+            results—because with us, cleanliness isn`t just by chance, it`s
             guaranteed!
           </p>
         </div>

@@ -12,20 +12,20 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="block lg:flex w-full gap-5 text-white  justify-between text-2xl bg-chance-blue text-center px-12 pb-5 tracking-wider ">
+    <nav className="block lg:flex w-full gap-5  text-white  justify-between text-2xl bg-chance-blue text-center px-12 pb-5 tracking-wider ">
       <div className="block lg:flex justify-between w-full max-w-screen-2xl m-auto">
         <div className=" flex justify-center pt-5">
           <Link className=" my-auto  " href={"/"}>
             <Image
               className=" m-auto transition duration-300 ease-in-out transform hover:scale-105"
-              src={"/Icon1.png"}
+              src={"/icon.png"}
               alt="A cleaning business Icon"
               width={100}
               height={100}
             />
           </Link>
           <p
-            className={` ${quicksand.className} h-fit pl-0 md:pl-5  my-auto text-white font-bold`}
+            className={` ${quicksand.className} h-fit pl-0 md:pl-5 text-chance-dark-blue md:text-3xl my-auto  font-bold`}
           >
             Just By Chance Cleaning
           </p>

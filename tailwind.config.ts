@@ -12,11 +12,11 @@ const config: Config = {
         lg: "0 2px 4px rgba(0, 0, 0, 0.10)",
       },
       colors: {
-        "chance-blue": "#00C4CC",
-        "chance-green": "#A3D800",
-        "chance-yellow": "#FFD700",
-        "chance-gray": "#F2F2F2",
-        "chance-dark-blue": "#004E7C",
+        "chance-blue": "#A0E7E5",
+        "chance-green": "#FFB5A7",
+        "chance-yellow": "#FFDAC1",
+        "chance-gray": "#F3F4F6",
+        "chance-dark-blue": "#333333",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

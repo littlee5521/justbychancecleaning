@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        "screen-3xl": "1920px", // You can define any size you need
+        "screen-4xl": "2560px", // Another example
+      },
       textShadow: {
         lg: "0 2px 4px rgba(0, 0, 0, 0.10)",
       },

@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <nav className="block lg:flex w-full gap-5  text-white  justify-between text-2xl bg-chance-blue text-center px-12 pb-5 tracking-wider ">
-      <div className="block lg:flex justify-between w-full max-w-screen-2xl m-auto">
+      <div className="block lg:flex justify-between w-full  max-w-screen-4xl m-auto">
         <div className=" flex justify-center pt-5">
           <Link className=" my-auto  " href={"/"}>
             <Image
@@ -51,7 +51,7 @@ export default function NavBar() {
         <div
           className={`menu-items ${
             isMenuOpen ? "flex" : "hidden"
-          } md:flex my-auto gap-5 pt-5 flex-col md:flex-row`}
+          } md:flex my-auto gap-5 pt-5 flex-col justify-center md:flex-row`}
         >
           <Link href={"/aboutus"}>
             <div className=" p-4 flex mb-5 md:mb-0  font-bold bg-chance-green py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">

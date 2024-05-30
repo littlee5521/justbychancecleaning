@@ -21,6 +21,7 @@ const config: Config = {
         "chance-yellow": "#FFDAC1",
         "chance-gray": "#F3F4F6",
         "chance-dark-blue": "#333333",
+        "chance-deep-blue": "#005B96",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

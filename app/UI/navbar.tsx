@@ -1,5 +1,8 @@
 "use client";
 import { useState } from "react";
+import CleanIcon from "../../public/clean.svg";
+import MaidIcon from "../../public/maid.svg";
+import PhoneIcon from "../../public/phone.svg";
 
 import Image from "next/image";
 import { quicksand } from "./fonts";
@@ -53,37 +56,22 @@ export default function NavBar() {
             isMenuOpen ? "flex" : "hidden"
           } md:flex my-auto gap-5 pt-5 flex-col justify-center md:flex-row`}
         >
-          <Link href={"/aboutus"}>
-            <div className=" p-4 flex mb-5 md:mb-0  font-bold bg-chance-green py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-              <Image
-                src={"/clean.png"}
-                alt="A cleaning business Icon"
-                width={75}
-                height={75}
-              ></Image>
+          <Link href={"/services"}>
+            <div className=" p-4 flex mb-5 md:mb-0 hover:bg-chance-yellow  bg-chance-green py-2 px-4 rounded-full shadow-md text-black transition duration-300 ease-in-out transform hover:scale-105">
+              <CleanIcon className="w-20 h-20 mr-2 transition-colors duration-300 ease-in-out fill-current" />
               <p className=" h-fit my-auto">Services</p>
             </div>
           </Link>
-          <Link href={"/contactus"}>
-            <div className=" p-4 flex mb-5 md:mb-0 font-bold bg-chance-green py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-              <Image
-                src={"/maid.png"}
-                alt="A cleaning business Icon"
-                width={75}
-                height={75}
-              ></Image>
+          <Link href={"/aboutUs"}>
+            <div className=" p-4 flex mb-5 md:mb-0 hover:bg-chance-yellow text-black bg-chance-green py-2 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+              <MaidIcon className="w-20 h-20 mr-2 transition-colors duration-300 ease-in-out fill-current" />
               <p className=" pl-2 h-fit my-auto">About Us</p>
             </div>
           </Link>
-          <Link href={"/contactus"}>
-            <div className=" p-4 flex mb-5 md:mb-0 font-bold bg-chance-green py-3 pb-4 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-              <Image
-                src={"/phone.png"}
-                alt="A cleaning business Icon"
-                width={60}
-                height={75}
-              ></Image>
-              <p className=" pl-2 h-fit my-auto">Contact Us</p>
+          <Link href={"/contactUs"}>
+            <div className="  flex mb-5 md:mb-0 hover:bg-chance-yellow  text-black bg-chance-green pb-4 px-4 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+              <PhoneIcon className="w-20 h-20 pt-5 mr-2 transition-colors my-auto duration-300 ease-in-out fill-current" />
+              <p className=" pl-2 h-full pt-5 my-auto">Contact Us</p>
             </div>
           </Link>
 

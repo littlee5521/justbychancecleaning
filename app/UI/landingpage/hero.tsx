@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { poppins } from "../fonts";
 import StarIcon from "../../../public/noun-star-6883878.svg";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -25,10 +26,12 @@ export default function Hero() {
               spotless results—because with us, cleanliness isn`t just by
               chance, it`s guaranteed!
             </p>
-            <button className=" m-auto hover:scale-105 mt-10 shadow-lg md:mt-20 bg-chance-green text-white hover:text-chance-dark-blue font-bold py-1 text-2xl px-5 rounded-full flex items-center transition-all duration-300 ease-in-out hover:bg-chance-yellow">
-              <StarIcon className="w-20 h-20 mr-2 transition-colors duration-300 ease-in-out fill-current" />
-              Take a Chance!
-            </button>
+            <Link href={"/contactUs"}>
+              <button className=" m-auto hover:scale-105 mt-10 shadow-lg md:mt-20 bg-chance-green text-white hover:text-chance-dark-blue font-bold py-1 text-2xl px-5 rounded-full flex items-center transition-all duration-300 ease-in-out hover:bg-chance-yellow">
+                <StarIcon className="w-20 h-20 mr-2 transition-colors duration-300 ease-in-out fill-current" />
+                Take a Chance!
+              </button>
+            </Link>
           </div>
           <Image
             className=" z-0"

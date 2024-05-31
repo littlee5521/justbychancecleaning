@@ -16,10 +16,10 @@ export default function MeetTheTeam() {
             service.
           </p>
           <h3 className=" text-4xl mt-8 mb-6 font-bold">
-            Chancy Thompson, Founder
+            Chancey Thompson, Founder
           </h3>
           <p>
-            Chancy has years of experience in the cleaning industry and is
+            Chancey has years of experience in the cleaning industry and is
             dedicated to ensuring that every client receives the best service
             possible.
           </p>

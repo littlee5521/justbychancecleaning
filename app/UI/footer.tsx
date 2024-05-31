@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className=" pt-5 text-chance-dark-blue text-center text-base w-full pb-10 bg-chance-dark-teal">
+    <footer className=" pt-5 text-chance-dark-blue text-center text-base w-full pb-10 bg-chance-dark-teal">
       <div className=" max-w-screen-xl m-auto px-5 justify-center items-start gap-10 block md:flex">
         <div className=" mb-5 md:mb-0 text-center">
           <h4 className=" font-bold">Contact Information</h4>
@@ -47,6 +47,6 @@ export default function Footer() {
           </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

@@ -1,7 +1,12 @@
+import ContactUsHeader from "../UI/contactus/contactusheader";
+import ContactMethods from "../UI/contactus/contactmethods";
+import ContactForm from "../UI/contactus/contactform";
 export default function Page() {
   return (
-    <section>
-      <h1>Hi</h1>
-    </section>
+    <main>
+      <ContactUsHeader />
+      <ContactMethods />
+      <ContactForm />
+    </main>
   );
 }

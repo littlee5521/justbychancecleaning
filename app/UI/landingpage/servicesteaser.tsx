@@ -9,13 +9,13 @@ export default function ServicesTeaser() {
       <div className=" max-w-screen-xl m-auto pt-8">
         <h3 className=" text-4xl font-bold mb-8"> Our Services</h3>
         <div className="cardWrapper pb-10 gap-10 justify-between block sm:flex">
-          <div className="card mb-10 sm:mb-0 pb-8 w-full sm:w-2/4 pt-8 px-4 bg-white">
+          <div className="card border border-black mb-10 sm:mb-0 pb-8 w-full sm:w-2/4 pt-8 px-4 bg-white">
             <div className="px-3 py-4 w-fit rounded-full m-auto bg-chance-blue">
               <ScrubIcon className="w-20 h-20 fill-black" />
             </div>
             <h3 className=" text-4xl mt-8 mb-6 font-bold">Deep Clean </h3>
+            <h4 className=" font-bold">Key Benefits</h4>
             <ul className=" list-disc font-bold list-inside">
-              Key Benefits
               <li className=" font-normal mt-4 my-1">
                 Comprehensive cleaning of all areas.
               </li>
@@ -33,13 +33,13 @@ export default function ServicesTeaser() {
               </button>
             </Link>
           </div>
-          <div className="card mb-10 sm:mb-0 pb-8 w-full sm:w-2/4 pt-8 px-4 bg-white">
-            <div className="px-3 py-4 w-fit rounded-full m-auto bg-chance-green">
+          <div className="card border border-black mb-10 sm:mb-0 pb-8 w-full sm:w-2/4 pt-8 px-4 bg-white">
+            <div className="px-3 py-4 w-fit rounded-full m-auto bg-chance-blue">
               <VacuumIcon className="w-20 h-20 fill-black" />
             </div>
-            <h3 className=" text-4xl mt-8 mb-8 font-bold">Deep Clean </h3>
+            <h3 className=" text-4xl mt-8 mb-8 font-bold">Routine Clean </h3>
+            <h4 className=" font-bold"> Key Benefits</h4>
             <ul className=" list-disc font-bold list-inside">
-              Key Benefits
               <li className=" font-normal mt-4 my-1">
                 Regular maintenance at an affordable rate.
               </li>

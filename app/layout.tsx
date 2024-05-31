@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { quicksand } from "./UI/fonts";
 import SuspenseNavbar from "./UI/suspenseNavBar";
+import Footer from "./UI/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${quicksand.className}`}>
         <SuspenseNavbar></SuspenseNavbar>
         {children}
+        <Footer />
       </body>
     </html>
   );
